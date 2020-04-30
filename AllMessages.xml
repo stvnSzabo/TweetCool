@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<ArrayOfMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Message>
+    <Username>Scav Raider</Username>
+    <Text>Na csá </Text>
+  </Message>
+  <Message>
+    <Username>Hatchling</Username>
+    <Text>My loot now YOINK!</Text>
+  </Message>
+  <Message>
+    <Username>Gluhar</Username>
+    <Text>SMORC!</Text>
+  </Message>
+  <Message>
+    <Username>Arcade</Username>
+    <Text>Kérdezhetek valamit?</Text>
+  </Message>
+  <Message>
+    <Username>CNitro</Username>
+    <Text>Arcade a srác neve</Text>
+  </Message>
+</ArrayOfMessage>

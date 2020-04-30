@@ -1,0 +1,19 @@
+﻿@page
+@model TweetCool.Pages.MessagesModel
+@{
+}
+
+<h1>Messages</h1>
+@{ 
+    List<Message> messages;
+    MessagesModel mm = new MessagesModel();
+    string filename = "AllMessages.xml";
+    messages = mm.LoadMessages(filename);
+    foreach (var msg in messages)
+    {
+        <p>@msg.ToString()</p>
+    }
+
+
+}
+

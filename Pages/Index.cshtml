@@ -1,0 +1,50 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+@{
+    var welcome = "Welcome to the Tweetcool!";
+}
+<p>@welcome</p>
+
+@{ 
+    List<Message> messages;
+    string filename = "AllMessages.xml";
+    XML theXml = new XML();
+    messages = theXml.LoadFromXml(filename);
+
+    foreach (var message in messages)
+    {
+        Console.WriteLine(message);
+        <p>@message</p>
+    }
+
+                }
+
+@{
+    <div class="text-center">
+        <form method="post">
+            <label for="Username">
+                Username
+                <input type="text" name="username" />
+            </label>
+            <label for="Message">
+                Message
+                <input type="text" name="message" />
+            </label>
+            <button>Submit</button>
+            @{ 
+                
+            }
+        </form>
+    </div>
+}
+
+
