@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\funny\\source\\repos\\TweetCool\\TweetCool.csproj": {}
+    "C:\\Users\\funny\\Source\\Repos\\TweetCool2\\TweetCool.csproj": {}
   },
   "projects": {
-    "C:\\Users\\funny\\source\\repos\\TweetCool\\TweetCool.csproj": {
+    "C:\\Users\\funny\\Source\\Repos\\TweetCool2\\TweetCool.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\funny\\source\\repos\\TweetCool\\TweetCool.csproj",
+        "projectUniqueName": "C:\\Users\\funny\\Source\\Repos\\TweetCool2\\TweetCool.csproj",
         "projectName": "TweetCool",
-        "projectPath": "C:\\Users\\funny\\source\\repos\\TweetCool\\TweetCool.csproj",
+        "projectPath": "C:\\Users\\funny\\Source\\Repos\\TweetCool2\\TweetCool.csproj",
         "packagesPath": "C:\\Users\\funny\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\funny\\source\\repos\\TweetCool\\obj\\",
+        "outputPath": "C:\\Users\\funny\\Source\\Repos\\TweetCool2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\funny\\AppData\\Roaming\\NuGet\\NuGet.Config",
